@@ -1,0 +1,108 @@
+,,NFHS 5_numeric,NFHS 5_numeric,NFHS 5_numeric,NFHS 5_numeric,NFHS 4_numeric,NFHS 4_numeric,NFHS 4_numeric,NFHS 4_numeric,Change_numeric,Change_numeric,Change_numeric,Change_numeric
+,,count,min,max,mean,count,min,max,mean,count,min,max,mean
+Category,Indicator,,,,,,,,,,,,
+Anaemia among Children and Women,All women age 15-19 years who are anaemic (%),642,0.0,97.1,57.730062305295945,642,0.0,88.1,46.416666666666664,642,-80.3,28.6,-11.32803738317757
+Anaemia among Children and Women,All women age 15-49 years who are anaemic (%),644,0.0,93.5,55.62391304347827,644,0.0,84.1,46.82748447204969,644,-77.9,29.1,-8.79860248447205
+Anaemia among Children and Women,Children age 6-59 months who are anaemic,644,0.0,95.5,65.56692546583851,644,0.0,95.8,51.464596273291924,644,-91.0,41.3,-14.083540372670805
+Anaemia among Children and Women,Nonpregnant women age 15-49 years who are anaemic,644,0.0,94.6,55.864751552795035,644,0.0,84.2,46.93198757763975,644,-78.4,29.0,-8.934937888198759
+Anaemia among Children and Women,Pregnant women age 15-49 years who are anaemic,644,0.0,84.4,40.85031055900621,644,0.0,84.1,33.99891304347826,644,-79.0,61.0,-6.757453416149069
+Blood Sugar Level among men,Male Blood sugar level high (141-160 mg/dl) (%),1,0.0,0.0,0.0,1,0.0,0.0,0.0,1,0.0,0.0,0.0
+Blood Sugar Level among men,Male Blood sugar level high or very high (>140 mg/dl) or taking medicine to control blood sugar level (%),644,0.0,36.2,14.733385093167701,644,0.0,9.0,0.11149068322981366,644,0.0,36.2,14.62049689440994
+Blood Sugar Level among men,Male Blood sugar level very high (>160 mg/dl) (%),644,0.0,21.1,6.670962732919255,644,0.0,0.0,0.0,644,0.0,21.1,6.672670807453416
+Blood Sugar Level among men,MaleBlood sugar level high (141-160 mg/dl) (%),643,1.7,18.3,6.99253499222395,643,0.0,7.9,0.0401244167962675,643,-1.4,18.3,6.950233281493001
+Blood Sugar Level among women,Female Blood sugar level high (141-160 mg/dl) (%),644,0.0,14.6,5.831055900621117,644,0.0,9.0,0.11366459627329192,644,-3.6,14.6,5.715683229813664
+Blood Sugar Level among women,Female Blood sugar level high or very high (>140 mg/dl) or taking medicine to control blood sugar level (%),644,0.0,32.1,12.48586956521739,644,0.0,0.0,0.0,644,0.0,32.1,12.483540372670808
+Blood Sugar Level among women,Female Blood sugar level very high (>160 mg/dl) (%),644,0.0,18.0,5.618478260869566,644,0.0,6.0,0.06304347826086956,644,0.0,18.0,5.555900621118012
+Characteristics of Women,Women who are literate (%),644,0.0,99.7,73.3781055900621,644,0.0,79.0,1.0804347826086955,644,-8.8,99.7,72.27158385093168
+Characteristics of Women,Women with 10 or more years of schooling (%),644,0.0,88.2,40.74767080745342,644,0.0,86.3,31.486024844720497,644,-13.1,65.5,9.234937888198758
+Child Feeding Practices and Nutritional Status of Children,Breastfeeding children age 6-23 months receiving an adequate diet (%),644,0.0,54.1,11.975621118012423,644,0.0,39.5,8.737422360248447,644,-28.1,41.3,3.2383540372670807
+Child Feeding Practices and Nutritional Status of Children,Children age 6-8 months receiving solid or semisolid food and breastmilk (%),644,0.0,85.2,3.892080745341615,644,0.0,80.6,2.203105590062112,644,-38.2,85.2,1.6889751552795031
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are overweight (weight fo rheight)20 (%),644,0.0,21.1,4.1695652173913045,644,0.0,17.3,2.254813664596273,644,-17.7,12.6,-1.9026397515527949
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are severely wasted (weight for height) (%),644,0.0,30.5,7.500465838509317,644,0.0,28.1,6.912577639751553,644,-24.4,23.0,-0.5821428571428572
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are stunted (height for age) (%),644,0.0,60.6,33.39037267080746,644,0.0,65.1,32.73462732919254,644,-59.0,27.7,-0.6659937888198757
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are underweight (weight for age) (%),644,0.0,62.4,29.429192546583852,644,0.0,66.9,29.750465838509317,644,-51.9,27.5,0.31832298136645965
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are wasted (weight for height) (%),644,0.0,48.0,18.39472049689441,644,0.0,46.9,18.683229813664596,644,-35.7,34.1,0.3048136645962733
+Child Feeding Practices and Nutritional Status of Children,Children under age 3 years breastfed within one hour of birth (%),644,0.0,88.5,45.2166149068323,644,0.0,89.0,40.97763975155279,644,-47.2,88.5,4.2451863354037265
+Child Feeding Practices and Nutritional Status of Children,Children under age 6 months exclusively breastfed (%),644,0.0,93.8,41.60326086956522,644,0.0,91.3,28.09285714285714,644,-46.1,88.2,13.510403726708075
+Child Feeding Practices and Nutritional Status of Children,Nonbreastfeeding children age 6-23 months receiving an adequate diet (%),644,0.0,41.3,1.2048136645962733,644,0.0,61.0,0.9563664596273291,644,-43.2,25.9,0.2484472049689441
+Child Feeding Practices and Nutritional Status of Children,Total children age 6-23 months receiving an adequate diet (%),644,0.0,50.1,12.446739130434782,644,0.0,45.2,9.713975155279503,644,-32.6,43.9,2.7262422360248446
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months fully vaccinated based on information from either vaccination card or mother's recall (%),644,0.0,100.0,76.31040372670807,644,0.0,100.0,54.108695652173914,644,-39.3,97.2,22.21552795031056
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months fully vaccinated based on information from vaccination card only (%),644,0.0,100.0,81.58198757763975,644,0.0,100.0,61.729968944099376,644,-27.2,100.0,19.847049689440993
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of penta or DPT vaccine (%),644,0.0,100.0,85.54177018633541,644,0.0,100.0,69.55434782608695,644,-24.8,100.0,16.00248447204969
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of penta or hepatitis B vaccine (%),644,0.0,100.0,82.9141304347826,644,0.0,100.0,56.05791925465839,644,-30.5,96.9,26.87639751552795
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of polio vaccine (%),644,0.0,100.0,80.05217391304348,644,0.0,100.0,64.77717391304348,644,-42.4,97.2,15.284782608695652
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of rotavirus vaccine (%),644,0.0,100.0,39.18012422360248,644,0.0,0.0,0.0,644,0.0,100.0,39.177639751552796
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received BCG (%),644,0.0,100.0,93.00698757763975,644,0.0,100.0,81.07360248447205,644,-17.9,100.0,11.939285714285713
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received the first dose of measlescontaining vaccine (MCV) (%),644,0.0,100.0,86.66863354037267,644,0.0,100.0,71.54177018633541,644,-30.4,100.0,15.128726708074534
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who received most of their vaccinations in a public health facility (%),644,0.0,100.0,93.34425465838508,644,0.0,100.0,81.51086956521739,644,-13.8,100.0,11.846739130434782
+Child Vaccinations and Vitamin A Supplementation,Children age 24-35 months who have received a second dose of measlescontaining vaccine (MCV) (%),644,0.0,63.8,31.549223602484474,644,0.0,0.0,0.0,644,0.0,63.8,31.525
+Child Vaccinations and Vitamin A Supplementation,Children age 9-35 months who received a vitamin A dose in the last 6 months (%),644,0.0,98.1,71.96273291925466,644,0.0,95.3,58.79472049689441,644,-27.6,91.8,13.176086956521738
+Current Use of Family Planning Methods,Any method (%),644,0.0,89.1,65.67841614906833,644,0.0,84.8,46.26723602484472,644,-37.3,85.2,19.399223602484472
+Current Use of Family Planning Methods,Any modern method (%),644,0.0,81.2,54.65636645962732,644,0.0,79.2,41.051397515527945,644,-36.6,76.4,13.594254658385095
+Current Use of Family Planning Methods,Condom (%),644,0.0,43.9,9.212577639751553,644,0.0,29.2,4.85667701863354,644,-7.5,35.1,4.354503105590062
+Current Use of Family Planning Methods,Female sterilization (%),644,0.0,76.5,34.85854037267081,644,0.0,75.7,30.14642857142857,644,-26.3,61.2,4.707298136645963
+Current Use of Family Planning Methods,IUD/PPIUD (%),644,0.0,32.2,2.9440993788819876,644,0.0,34.7,1.7858695652173913,644,-24.7,28.2,1.1576086956521738
+Current Use of Family Planning Methods,Injectables (%),644,0.0,9.8,0.6614906832298136,644,0.0,2.4,0.16987577639751553,644,-1.1,9.0,0.4920807453416149
+Current Use of Family Planning Methods,Male sterilization (%),644,0.0,18.4,0.4830745341614907,644,0.0,15.6,0.39798136645962734,644,-6.0,8.9,0.08121118012422361
+Current Use of Family Planning Methods,Pill (%),644,0.0,44.2,5.43027950310559,644,0.0,36.0,3.578105590062112,644,-11.8,44.2,1.852329192546584
+Delivery Care,Births attended by skilled health personnel (%),644,0.0,100.0,89.59409937888199,644,0.0,100.0,74.27531055900621,644,-17.2,100.0,15.321118012422358
+Delivery Care,Births delivered by caesarean section (%),644,0.0,82.4,22.159006211180124,644,0.0,80.0,15.398447204968944,644,-15.4,47.7,6.764440993788821
+Delivery Care,Births in a private health facility that were delivered by caesarean section (%),644,0.0,94.2,38.46583850931677,644,0.0,96.7,28.09751552795031,644,-29.9,94.2,10.362422360248447
+Delivery Care,Births in a public health facility that were delivered by caesarean section (%),644,0.0,66.8,16.694875776397517,644,0.0,70.1,11.862267080745342,644,-25.8,41.4,4.864285714285714
+Delivery Care,Home births that were conducted by skilled health personnel (%),644,0.0,19.9,3.0290372670807453,644,0.0,33.4,3.4475155279503102,644,-21.2,13.8,-0.41847826086956524
+Delivery Care,Institutional births (%),644,0.0,100.0,88.66226708074534,644,0.0,100.0,72.24534161490683,644,-11.9,99.3,16.417391304347824
+Delivery Care,Institutional births in public facility (%),644,0.0,96.7,65.5082298136646,644,0.0,96.1,51.41009316770186,644,-22.7,89.0,14.131055900621117
+Hypertension among men,Male Elevated blood pressure or taking medicine to control blood pressure (%),644,0.0,49.6,24.555434782608696,644,0.0,7.0,0.06987577639751552,644,0.0,49.6,24.480434782608697
+Hypertension among men,Male Mildly elevated blood pressure (Systolic 140-159 mm of Hg and/or Diastolic 90-99 mm of Hg) (%),644,0.0,32.9,16.153726708074533,644,0.0,6.0,0.034782608695652174,644,0.0,32.9,16.11863354037267
+Hypertension among men,Male Moderately or severely elevated blood pressure (%),644,0.0,19.5,6.004192546583851,644,0.0,15.0,0.18043478260869567,644,-7.1,19.5,5.823757763975156
+Hypertension among women,Female Elevated blood pressure or taking medicine to control blood pressure (%),644,0.0,42.1,21.255590062111803,644,0.0,2.0,0.018012422360248446,644,0.0,42.1,21.240372670807453
+Hypertension among women,Female Mildly elevated blood pressure (Systolic 140-159 mm of Hg and/or Diastolic 90-99 mm of Hg) (%),644,0.0,23.7,12.592080745341615,644,0.0,9.0,0.12391304347826086,644,0.0,23.7,12.475310559006212
+Hypertension among women,Female Moderately or severely elevated blood pressure (%),644,0.0,15.8,5.296583850931677,644,0.0,3.0,0.028881987577639753,644,0.0,15.8,5.2686335403726705
+Marriage and Fertility,Births in the 5 years preceding the survey that are third or higher order (%),644,0.0,75.2,2.283695652173913,644,0.0,9.9,2.195496894409938,644,-4.2,75.2,0.0889751552795031
+Marriage and Fertility,Women age 15-19 years who were already mothers or pregnant at the time of the survey (%),644,0.0,91.9,6.384627329192546,644,0.0,29.5,6.712111801242236,644,-91.9,17.4,0.31413043478260866
+Marriage and Fertility,Women age 15-24 years who use hygienic methods of protection during their menstrual period (%),644,0.0,100.0,78.04891304347827,644,0.0,98.7,52.09037267080745,644,-22.2,98.7,25.954037267080746
+Marriage and Fertility,Women age 2024 years married before age 18 years (%),644,0.0,80.9,20.55947204968944,644,0.0,76.3,22.711024844720498,644,-50.8,27.5,2.151242236024845
+Maternal and Child Health,Average out-of-pocket expenditure per delivery in a public health facility (Rs),644,0.0,18578.0,3493.666149068323,644,0.0,31457.0,2830.9829192546586,644,-91.5,778.5,35.46670807453416
+Maternal and Child Health,Children born at home who were taken to a health facility for a checkup within 24 hours of birth (%),644,0.0,29.0,1.493167701863354,644,0.0,13.4,0.5521739130434783,644,-10.0,26.7,0.9409937888198758
+Maternal and Child Health,Children who received postnatal care from a doctor/nurse/LHV/ANM/midwife/other health personnel within 2 days of delivery (%),644,0.0,99.6,78.89037267080745,644,0.0,46.0,0.4720496894409938,644,0.0,99.6,78.41552795031056
+Maternal and Child Health,Mothers who consumed iron folic acid for 100 days or more when they were pregnant (%),644,0.0,95.0,46.19534161490683,644,0.0,89.5,28.62391304347826,644,-40.4,78.8,17.553105590062113
+Maternal and Child Health,Mothers who consumed iron folic acid for 180 days or more when they were pregnant (%),644,0.0,84.6,27.30854037267081,644,0.0,78.3,12.845962732919254,644,-29.4,61.7,14.456832298136646
+Maternal and Child Health,Mothers who had an antenatal checkup in the first trimester (%),644,0.0,99.6,71.50263975155279,644,0.0,98.3,54.61801242236025,644,-27.5,94.0,16.882142857142856
+Maternal and Child Health,Mothers who had at least 4 antenatal care visits (%),644,0.0,98.7,60.40139751552795,644,0.0,98.3,46.94363354037267,644,-61.7,93.5,13.45636645962733
+Maternal and Child Health,Mothers who received postnatal care from a doctor/nurse/LHV/ANM/midwife/other health personnel within 2 days of delivery (%),644,0.0,99.5,78.92624223602485,644,0.0,96.8,56.882453416149076,644,-31.2,98.1,22.045652173913044
+Maternal and Child Health,Mothers whose last birth was protected against neonatal tetanus (%),644,0.0,100.0,91.2358695652174,644,0.0,100.0,80.00636645962733,644,-17.5,99.3,11.207919254658384
+Maternal and Child Health,Registered pregnancies for which the mother received a Mother and Child Protection (MCP) card (%),644,0.0,100.0,96.03105590062111,644,0.0,100.0,81.18012422360249,644,-18.5,100.0,14.85450310559006
+Nutritional Status of Women,Women who are overweight or obese,644,0.0,53.0,23.276242236024846,644,0.0,49.0,17.121583850931675,644,-44.8,13.0,-6.146894409937888
+Nutritional Status of Women,Women who have high risk waisttohip ratio,644,0.0,96.6,57.72795031055901,644,0.0,0.0,0.0,644,-96.6,48.3,-57.57003105590062
+Nutritional Status of Women,Women whose Body Mass Index (BMI) is below normal (BMI <18),644,0.0,43.6,17.733540372670806,644,0.0,47.5,20.359161490683228,644,-34.9,20.2,2.616614906832298
+Population and Household Profile,Children age 5 years who attended preprimary school during the school year 2019-20 (%),644,0.0,52.9,12.658540372670808,644,0.0,0.0,0.0,644,0.0,52.9,12.675621118012423
+Population and Household Profile,Children under age 5 years whose birth was registered with the civil authority (%),644,0.0,100.0,90.86490683229813,644,0.0,100.0,74.2746894409938,644,-18.9,99.6,16.59052795031056
+Population and Household Profile,Deaths in the last 3 years registered with the civil authority (%),644,0.0,100.0,70.99394409937888,644,0.0,0.0,0.0,644,0.0,100.0,70.98245341614907
+Population and Household Profile,Female population age 6 years and above who ever attended school (%),644,15.9,99.2,71.98819875776398,644,0.0,98.7,62.15636645962732,644,-20.3,90.9,9.803105590062112
+Population and Household Profile,Households using clean fuel for cooking (%),644,0.0,99.7,53.87701863354038,644,0.0,97.0,33.87468944099379,644,-20.0,99.7,19.991770186335405
+Population and Household Profile,Households using iodized salt (%),644,0.0,100.0,94.87795031055902,644,0.0,100.0,85.17003105590062,644,-36.2,99.8,9.709161490683229
+Population and Household Profile,Households with any usual member covered under a health insurance/financing scheme (%),644,0.0,97.8,39.05993788819875,644,0.0,86.0,23.722981366459628,644,-57.8,88.9,15.352484472049689
+Population and Household Profile,Population below age 15 years (%),644,0.0,50.6,26.388198757763973,644,0.0,44.4,26.374534161490683,644,-12.1,50.6,0.00916149068322979
+Population and Household Profile,Population living in households that use an improved sanitation facility (%),644,0.0,99.9,71.60900621118012,644,0.0,99.7,44.13167701863354,644,-12.4,89.7,27.466614906832298
+Population and Household Profile,Population living in households with an improved drinkingwater source (%),644,0.0,100.0,93.67515527950312,644,0.0,100.0,82.80590062111801,644,-15.9,100.0,10.869099378881987
+Population and Household Profile,Population living in households with electricity (%),644,0.0,100.0,96.7777950310559,644,0.0,100.0,80.5052795031056,644,-12.7,100.0,16.272670807453416
+Population and Household Profile,"Sex ratio at birth for children born in the last five years (females per 1,000 males)",644,0.0,1485.0,943.2189440993789,644,0.0,1531.0,849.1909937888199,644,-43.9,79.8,1.9744409937888199
+Population and Household Profile,"Sex ratio of the total population (females per 1,000 males)",644,0.0,1332.0,1019.2903726708074,644,0.0,1259.0,908.3074534161491,644,-9.9,20.9,2.439394409937888
+Quality of Family Planning Services,Current users ever told about side effects of current method (%),644,0.0,98.9,64.69860248447205,644,0.0,98.2,41.82903726708075,644,-38.2,98.8,22.875931677018635
+Quality of Family Planning Services,Health worker ever talked to female non-users about family planning (%),644,0.0,63.4,24.305434782608696,644,0.0,48.9,16.99332298136646,644,-29.3,60.8,7.294254658385094
+Screening for Cancer among Women,Ever undergone a breast examination for breast cancer (%),644,0.0,14.6,0.6976708074534161,644,0.0,18.0,0.15776397515527948,644,-17.9,14.6,0.5416149068322982
+Screening for Cancer among Women,Ever undergone a screening test for cervical cancer (%),644,0.0,23.2,1.5863354037267081,644,0.0,44.0,0.5791925465838509,644,-39.4,23.2,1.0135093167701863
+Screening for Cancer among Women,Ever undergone an oral cavity examination for oral cancer (%),644,0.0,15.8,0.682608695652174,644,0.0,17.0,0.17422360248447205,644,-15.6,15.8,0.513664596273292
+Tobacco Use and Alcohol Consumption among Adults,Men age 15 years and above who consume alcohol (%),644,0.0,68.4,22.099378881987576,644,0.0,0.0,0.0,644,0.0,68.4,22.1166149068323
+Tobacco Use and Alcohol Consumption among Adults,Men age 15 years and above who use any kind of tobacco (%),644,0.0,80.6,40.56847826086956,644,0.0,0.0,0.0,644,0.0,80.6,40.58276397515528
+Tobacco Use and Alcohol Consumption among Adults,Women age 15 years and above who consume alcohol (%),644,0.0,42.8,2.558074534161491,644,0.0,0.0,0.0,644,0.0,42.8,2.563664596273292
+Tobacco Use and Alcohol Consumption among Adults,Women age 15 years and above who use any kind of tobacco (%),644,0.0,70.6,11.328726708074534,644,0.0,0.0,0.0,644,0.0,70.6,11.330745341614907
+Treatment of Childhood Diseases,Children age 12-23 months who received most of their vaccinations in a private health facility (%),644,0.0,32.9,3.1262422360248445,644,0.0,49.1,4.2661490683229815,644,-42.4,22.4,-1.1532608695652176
+Treatment of Childhood Diseases,Children with diarrhoea in the 2 weeks preceding the survey taken to a health facility or health provider (%),644,0.0,95.3,21.27748447204969,644,0.0,95.8,14.205590062111801,644,-65.0,92.4,7.1610248447204965
+Treatment of Childhood Diseases,Children with diarrhoea in the 2 weeks preceding the survey who received oral rehydration salts (ORS) (%),644,0.0,95.9,19.154347826086955,644,0.0,87.0,10.705124223602486,644,-61.0,89.8,8.489285714285716
+Treatment of Childhood Diseases,Children with diarrhoea in the 2 weeks preceding the survey who received zinc (%),644,0.0,70.4,9.946273291925465,644,0.0,82.3,4.192857142857142,644,-52.0,67.1,5.818167701863354
+Treatment of Childhood Diseases,Children with fever or symptoms of ARI in the 2 weeks preceding the survey taken to a health facility or health provider (%),644,0.0,97.3,44.65947204968944,644,0.0,100.0,35.16956521739131,644,-89.0,97.0,9.244099378881987
+Treatment of Childhood Diseases,Prevalence of diarrhoea in the 2 weeks preceding the survey (%),644,0.0,39.3,6.490993788819876,644,0.0,44.7,7.663819875776397,644,-30.0,38.3,1.1639751552795032
+Treatment of Childhood Diseases,Prevalence of symptoms of acute respiratory infection (ARI) in the 2 weeks preceding the survey (%),646,0.0,11.2,2.5890092879256965,646,0.0,19.5,2.2724458204334366,646,-8.8,16.1,-0.31702786377708975
+Unmet Need for Family Planning,Total unmet need (%),644,0.0,33.0,9.61723602484472,644,0.0,35.1,12.68695652173913,644,-27.1,29.3,-3.068944099378882
+Unmet Need for Family Planning,Unmet need for spacing (%),644,0.0,25.2,4.320031055900621,644,0.0,20.2,5.796273291925466,644,-15.2,21.7,-1.4774844720496894

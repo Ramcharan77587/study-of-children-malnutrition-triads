@@ -1,0 +1,11 @@
+variable,missing,min,max,outside_0_100
+stunting_pct,0,13.2,60.6,0
+wasting_pct,0,4.5,48.0,0
+underweight_pct,0,7.2,62.4,0
+female_literacy_pct,0,37.1,99.7,0
+improved_sanitation_pct,0,29.2,99.9,0
+improved_water_pct,0,41.2,100.0,0
+anc_4plus_pct,0,4.4,98.7,0
+child_anemia_pct,0,24.9,95.5,0
+early_marriage_pct,0,0.0,80.9,0
+institutional_births_pct,0,21.4,100.0,0

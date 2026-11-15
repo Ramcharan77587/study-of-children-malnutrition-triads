@@ -1,0 +1,2 @@
+dataset,rows,columns,exact_duplicate_rows,duplicate_state_district_indicator_rows,missing_state,missing_district_name,missing_district_code,unique_indicators,unique_categories
+india,73632,15,0,210,0,0,6760,105,19

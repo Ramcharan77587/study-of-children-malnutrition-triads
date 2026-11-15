@@ -1,0 +1,14 @@
+{
+  "main_dataset_rows": 706,
+  "india_rows": 73632,
+  "india_change_rows": 66976,
+  "outputs_directory": "D:\\DAV NIErnaya\\02_Analysis_Outputs",
+  "important_cautions": [
+    "No automatic imputation of district codes.",
+    "No automatic outlier removal.",
+    "No automatic treatment of zero as missing.",
+    "No district-level merging across datasets.",
+    "Indicator classification is rule-based and requires manual review.",
+    "State averages are unweighted unless population weights are supplied."
+  ]
+}

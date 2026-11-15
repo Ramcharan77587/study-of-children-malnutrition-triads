@@ -1,0 +1,106 @@
+Category,Indicator,Priority_suggestion,Relevance_suggestion,Suggested_decision,Rows,NFHS4_nonmissing,NFHS5_nonmissing
+Anaemia among Children and Women,All women age 15-19 years who are anaemic (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Anaemia among Children and Women,All women age 15-49 years who are anaemic (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Anaemia among Children and Women,Children age 6-59 months who are anaemic,A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Anaemia among Children and Women,Nonpregnant women age 15-49 years who are anaemic,C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Anaemia among Children and Women,Pregnant women age 15-49 years who are anaemic,C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Blood Sugar Level among men,Male Blood sugar level high (141-160 mg/dl) (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,1,1,1
+Blood Sugar Level among men,Male Blood sugar level high or very high (>140 mg/dl) or taking medicine to control blood sugar level (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Blood Sugar Level among men,Male Blood sugar level very high (>160 mg/dl) (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Blood Sugar Level among men,MaleBlood sugar level high (141-160 mg/dl) (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,707,707,707
+Blood Sugar Level among women,Female Blood sugar level high (141-160 mg/dl) (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Blood Sugar Level among women,Female Blood sugar level high or very high (>140 mg/dl) or taking medicine to control blood sugar level (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Blood Sugar Level among women,Female Blood sugar level very high (>160 mg/dl) (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Characteristics of Women,Women who are literate (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Characteristics of Women,Women with 10 or more years of schooling (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Breastfeeding children age 6-23 months receiving an adequate diet (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children age 6-8 months receiving solid or semisolid food and breastmilk (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are overweight (weight fo rheight)20 (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are severely wasted (weight for height) (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are stunted (height for age) (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are underweight (weight for age) (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children under 5 years who are wasted (weight for height) (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children under age 3 years breastfed within one hour of birth (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Children under age 6 months exclusively breastfed (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Nonbreastfeeding children age 6-23 months receiving an adequate diet (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Feeding Practices and Nutritional Status of Children,Total children age 6-23 months receiving an adequate diet (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months fully vaccinated based on information from either vaccination card or mother's recall (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months fully vaccinated based on information from vaccination card only (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of penta or DPT vaccine (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of penta or hepatitis B vaccine (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of polio vaccine (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received 3 doses of rotavirus vaccine (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received BCG (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who have received the first dose of measlescontaining vaccine (MCV) (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 12-23 months who received most of their vaccinations in a public health facility (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 24-35 months who have received a second dose of measlescontaining vaccine (MCV) (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Child Vaccinations and Vitamin A Supplementation,Children age 9-35 months who received a vitamin A dose in the last 6 months (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Current Use of Family Planning Methods,Any method (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Current Use of Family Planning Methods,Any modern method (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Current Use of Family Planning Methods,Condom (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Current Use of Family Planning Methods,Female sterilization (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Current Use of Family Planning Methods,IUD/PPIUD (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Current Use of Family Planning Methods,Injectables (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Current Use of Family Planning Methods,Male sterilization (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Current Use of Family Planning Methods,Pill (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Delivery Care,Births attended by skilled health personnel (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Delivery Care,Births delivered by caesarean section (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Delivery Care,Births in a private health facility that were delivered by caesarean section (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Delivery Care,Births in a public health facility that were delivered by caesarean section (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Delivery Care,Home births that were conducted by skilled health personnel (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Delivery Care,Institutional births (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Delivery Care,Institutional births in public facility (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Hypertension among men,Male Elevated blood pressure or taking medicine to control blood pressure (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Hypertension among men,Male Mildly elevated blood pressure (Systolic 140-159 mm of Hg and/or Diastolic 90-99 mm of Hg) (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Hypertension among men,Male Moderately or severely elevated blood pressure (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Hypertension among women,Female Elevated blood pressure or taking medicine to control blood pressure (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Hypertension among women,Female Mildly elevated blood pressure (Systolic 140-159 mm of Hg and/or Diastolic 90-99 mm of Hg) (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Hypertension among women,Female Moderately or severely elevated blood pressure (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Marriage and Fertility,Births in the 5 years preceding the survey that are third or higher order (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Marriage and Fertility,Women age 15-19 years who were already mothers or pregnant at the time of the survey (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Marriage and Fertility,Women age 15-24 years who use hygienic methods of protection during their menstrual period (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Marriage and Fertility,Women age 2024 years married before age 18 years (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Maternal and Child Health,Average out-of-pocket expenditure per delivery in a public health facility (Rs),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Maternal and Child Health,Children born at home who were taken to a health facility for a checkup within 24 hours of birth (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Maternal and Child Health,Children who received postnatal care from a doctor/nurse/LHV/ANM/midwife/other health personnel within 2 days of delivery (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Maternal and Child Health,Mothers who consumed iron folic acid for 100 days or more when they were pregnant (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Maternal and Child Health,Mothers who consumed iron folic acid for 180 days or more when they were pregnant (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Maternal and Child Health,Mothers who had an antenatal checkup in the first trimester (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Maternal and Child Health,Mothers who had at least 4 antenatal care visits (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Maternal and Child Health,Mothers who received postnatal care from a doctor/nurse/LHV/ANM/midwife/other health personnel within 2 days of delivery (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Maternal and Child Health,Mothers whose last birth was protected against neonatal tetanus (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Maternal and Child Health,Registered pregnancies for which the mother received a Mother and Child Protection (MCP) card (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Nutritional Status of Women,Women who are overweight or obese,A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Nutritional Status of Women,Women who have high risk waisttohip ratio,C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Nutritional Status of Women,Women whose Body Mass Index (BMI) is below normal (BMI <18),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Population and Household Profile,Children age 5 years who attended preprimary school during the school year 2019-20 (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Population and Household Profile,Children under age 5 years whose birth was registered with the civil authority (%),A,Direct child nutrition / feeding / nutritional outcome,Core candidate,708,708,708
+Population and Household Profile,Deaths in the last 3 years registered with the civil authority (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Population and Household Profile,Female population age 6 years and above who ever attended school (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Population and Household Profile,Households using clean fuel for cooking (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Population and Household Profile,Households using iodized salt (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Population and Household Profile,Households with any usual member covered under a health insurance/financing scheme (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Population and Household Profile,Population below age 15 years (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Population and Household Profile,Population living in households that use an improved sanitation facility (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Population and Household Profile,Population living in households with an improved drinkingwater source (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Population and Household Profile,Population living in households with electricity (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Population and Household Profile,"Sex ratio at birth for children born in the last five years (females per 1,000 males)",C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Population and Household Profile,"Sex ratio of the total population (females per 1,000 males)",C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Quality of Family Planning Services,Current users ever told about side effects of current method (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Quality of Family Planning Services,Health worker ever talked to female non-users about family planning (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Screening for Cancer among Women,Ever undergone a breast examination for breast cancer (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Screening for Cancer among Women,Ever undergone a screening test for cervical cancer (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Screening for Cancer among Women,Ever undergone an oral cavity examination for oral cancer (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Tobacco Use and Alcohol Consumption among Adults,Men age 15 years and above who consume alcohol (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Tobacco Use and Alcohol Consumption among Adults,Men age 15 years and above who use any kind of tobacco (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Tobacco Use and Alcohol Consumption among Adults,Women age 15 years and above who consume alcohol (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Tobacco Use and Alcohol Consumption among Adults,Women age 15 years and above who use any kind of tobacco (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Treatment of Childhood Diseases,Children age 12-23 months who received most of their vaccinations in a private health facility (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Treatment of Childhood Diseases,Children with diarrhoea in the 2 weeks preceding the survey taken to a health facility or health provider (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Treatment of Childhood Diseases,Children with diarrhoea in the 2 weeks preceding the survey who received oral rehydration salts (ORS) (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Treatment of Childhood Diseases,Children with diarrhoea in the 2 weeks preceding the survey who received zinc (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Treatment of Childhood Diseases,Children with fever or symptoms of ARI in the 2 weeks preceding the survey taken to a health facility or health provider (%),C,Indirect or unclear relevance; inspect source definition,Manual review required,708,708,708
+Treatment of Childhood Diseases,Prevalence of diarrhoea in the 2 weeks preceding the survey (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Treatment of Childhood Diseases,Prevalence of symptoms of acute respiratory infection (ARI) in the 2 weeks preceding the survey (%),B,Maternal / child health / household / socioeconomic context,Supporting candidate,708,708,708
+Unmet Need for Family Planning,Total unmet need (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
+Unmet Need for Family Planning,Unmet need for spacing (%),C,Indirect demographic / health / socioeconomic context,Secondary or exclude from core,708,708,708
