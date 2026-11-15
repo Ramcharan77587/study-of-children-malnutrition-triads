@@ -315,7 +315,14 @@ def top_bottom(df, indicator, n=10):
 st.sidebar.markdown("## NIErnaya 2026")
 st.sidebar.caption("NFHS-5 District Child Nutrition Intelligence")
 st.sidebar.markdown("---")
-st.sidebar.markdown("### Active Data Corpus")
+st.sidebar.markdown("### Data inputs")
+primary_file = st.sidebar.file_uploader("Primary NFHS-5 district CSV", type=["csv"], key="primary_csv")
+geo_file = st.sidebar.file_uploader("Validated district GeoJSON (optional)", type=["geojson", "json"], key="geojson")
+metadata_file = st.sidebar.file_uploader("Indicator metadata CSV (optional)", type=["csv"], key="metadata")
+india_file = st.sidebar.file_uploader("Supplementary India.csv (optional)", type=["csv"], key="india_csv")
+change_file = st.sidebar.file_uploader("Supplementary India_Change.csv (optional)", type=["csv"], key="change_csv")
+st.sidebar.markdown("---")
+st.sidebar.caption("Upload the same validated files used in your EDA. The overview is calculated from the uploaded data at runtime.")
 
 # ----------------------------- Load data -------------------------------------
 APP_DIR = Path(__file__).resolve().parent
@@ -334,56 +341,73 @@ def resolve_local(rel_paths):
             return p3
     return None
 
-# 1. Primary Dataset (Default: 706 factual districts)
-def_primary = resolve_local([
-    "data/processed/nfhs5_india_district_child_malnutrition_factual.csv",
-    "data/processed/main_nfhs5_cleaned_conservative.csv",
-    "02_Analysis_Outputs/06_Final_Data/main_nfhs5_cleaned_conservative.csv"
-])
-if def_primary and def_primary.exists():
-    raw_df = pd.read_csv(def_primary)
-    st.sidebar.success("✔ 706 Districts Microdata (NFHS-5)")
+if primary_file is None:
+    def_primary = resolve_local([
+        "data/processed/nfhs5_india_district_child_malnutrition_factual.csv",
+        "data/processed/main_nfhs5_cleaned_conservative.csv",
+        "02_Analysis_Outputs/06_Final_Data/main_nfhs5_cleaned_conservative.csv"
+    ])
+    if def_primary:
+        raw_df = pd.read_csv(def_primary)
+        st.sidebar.success("✔ Loaded local NFHS-5 primary dataset")
+    else:
+        st.title("NIErnaya | National Child Nutrition Intelligence")
+        st.markdown("### A district-level view of child nutrition in India")
+        st.info("Upload your primary NFHS-5 district CSV in the sidebar to populate the dashboard.")
+        st.markdown("""
+        **Expected core columns**
+        - `district_name`, `state_name`
+        - `stunting_pct`, `wasting_pct`, `underweight_pct`
+        - `female_literacy_pct`, `improved_sanitation_pct`, `improved_water_pct`
+        - `anc_4plus_pct`, `child_anemia_pct`, `early_marriage_pct`, `institutional_births_pct`
+        """)
+        st.stop()
 else:
-    st.title("NIErnaya | National Child Nutrition Intelligence")
-    st.markdown("### A district-level view of child nutrition in India")
-    st.error("Default primary dataset (`nfhs5_india_district_child_malnutrition_factual.csv`) not found.")
-    st.stop()
+    raw_df = read_csv_upload(primary_file)
 
+if raw_df is None:
+    st.error("Unable to read the uploaded CSV.")
+    st.stop()
 df = safe_numeric(raw_df)
 missing_cols = [c for c in EXPECTED_COLS if c not in df.columns]
 if missing_cols:
-    st.error("Your dataset is missing expected columns: " + ", ".join(missing_cols))
+    st.error("Your CSV is missing expected columns: " + ", ".join(missing_cols))
     st.write("Columns found:", list(df.columns))
     st.stop()
 
 available_indicators = [c for c in INDICATORS if c in df.columns]
 
-# 2. Boundary GeoJSON (Default: 641 Census district polygons)
-def_geo = resolve_local(["data/geo/Districts.geojson", "data/geo/india_district_boundary.geojson"])
-geo = None
-if def_geo and def_geo.exists():
-    try:
-        with open(def_geo, "r", encoding="utf-8") as f:
-            geo = json.load(f)
-        st.sidebar.success("✔ Census District GeoJSON (641 Polygons)")
-    except Exception:
-        geo = None
+# Preload supplementary files if not manually uploaded
+if geo_file:
+    geo = get_geojson(geo_file)
+else:
+    def_geo = resolve_local(["data/geo/Districts.geojson", "data/geo/india_district_boundary.geojson"])
+    geo = None
+    if def_geo:
+        try:
+            with open(def_geo, "r", encoding="utf-8") as f:
+                geo = json.load(f)
+            st.sidebar.success("✔ Loaded local boundary GeoJSON")
+        except Exception:
+            geo = None
 
-# 3. Metadata Dictionary (Default)
-def_meta = resolve_local(["data/processed/dataset_metadata_dictionary.csv"])
-metadata = pd.read_csv(def_meta) if (def_meta and def_meta.exists()) else None
-if metadata is not None:
-    st.sidebar.info("✔ Indicator Metadata Dictionary")
+if metadata_file:
+    metadata = read_csv_upload(metadata_file)
+else:
+    def_meta = resolve_local(["data/processed/dataset_metadata_dictionary.csv"])
+    metadata = pd.read_csv(def_meta) if def_meta else None
 
-# 4. Supplementary Datasets (Default)
-def_india = resolve_local(["data/raw/India.csv", "02_Analysis_Outputs/06_Final_Data/india_cleaned_conservative.csv"])
-india_df = pd.read_csv(def_india, low_memory=False) if (def_india and def_india.exists()) else None
+if india_file:
+    india_df = read_csv_upload(india_file)
+else:
+    def_india = resolve_local(["data/raw/India.csv"])
+    india_df = pd.read_csv(def_india, low_memory=False) if def_india else None
 
-def_change = resolve_local(["data/raw/India_Change.csv", "02_Analysis_Outputs/06_Final_Data/india_change_cleaned_conservative.csv"])
-change_df = pd.read_csv(def_change, low_memory=False) if (def_change and def_change.exists()) else None
-
-st.sidebar.caption("Factual district microdata loaded by default. Zero manual upload required.")
-st.sidebar.markdown("---")
+if change_file:
+    change_df = read_csv_upload(change_file)
+else:
+    def_change = resolve_local(["data/raw/India_Change.csv"])
+    change_df = pd.read_csv(def_change, low_memory=False) if def_change else None
 
 # ----------------------------- Navigation ------------------------------------
 pages = [
@@ -455,7 +479,7 @@ if page == "National Findings Overview":
                     st.markdown(f"#### {LABELS[ind]}")
                     show_map(geo, df, ind, geo_district, geo_state, f"overview_{ind}", basemap_style=ov_bstyle)
     else:
-        st.info("District boundary GeoJSON not found in data/geo/ directory.")
+        st.info("Upload the validated district GeoJSON in the sidebar to display the three nutrition outcome maps.")
 
     st.markdown("## 3 · Contributing and contextual indicators")
     pred_cols = st.columns(2)
@@ -611,24 +635,24 @@ elif page == "Supplementary Data":
         st.write(f"{len(india_df):,} rows × {len(india_df.columns):,} columns")
         st.dataframe(india_df.head(100),use_container_width=True)
     else:
-        st.info("India.csv dataset not found in data/raw/ directory.")
+        st.info("Upload India.csv in the sidebar if it has a clearly justified role in your analysis.")
     if change_df is not None:
         st.markdown("### India_Change.csv")
         st.write(f"{len(change_df):,} rows × {len(change_df.columns):,} columns")
         st.dataframe(change_df.head(100),use_container_width=True)
     else:
-        st.info("India_Change.csv dataset not found in data/raw/ directory.")
+        st.info("Upload India_Change.csv only if you are making a defensible comparison across survey rounds or periods.")
     if metadata is not None:
         st.markdown("### Indicator metadata dictionary")
         st.dataframe(metadata,use_container_width=True)
     else:
-        st.info("Metadata dictionary not found in data/processed/ directory.")
+        st.info("Upload the metadata dictionary to display source definitions.")
 
 # ============================= GEOSPATIAL ===================================
 elif page == "Geospatial Intelligence":
     st.title("Geospatial Intelligence")
     if not geo:
-        st.warning("District boundary GeoJSON not found in data/geo/ directory.")
+        st.warning("Upload the validated district GeoJSON in the sidebar.")
         st.stop()
     features = geo.get("features", [])
     props = sorted({k for f in features for k in (f.get("properties", {}) or {}).keys()})
