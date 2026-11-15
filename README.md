@@ -85,6 +85,12 @@ python scripts/NIErnaya_Phase2_Master_Pipeline.py
 jupyter lab notebooks/
 ```
 
+### 5. Cloud Deployment (Vercel & Streamlit Cloud)
+* **Vercel (1-Click Static & Presentation Showcase)**:
+  Import this GitHub repository into [Vercel](https://vercel.com). Vercel uses `vercel.json` and `index.html` to deploy the Executive Web Portal, interactive presentation deck (`/presentation`), defense guide (`/guide`), and WebAssembly dashboard (`/dashboard`) automatically with zero build configuration!
+* **Streamlit Community Cloud (Native Server Hosting)**:
+  For native Python server hosting with full interactive GIS maps, visit [share.streamlit.io](https://share.streamlit.io), connect this repository, set the main file path to `dashboard/app.py`, and click Deploy!
+
 ---
 
 ## 📊 Core Analytical Findings Summary
