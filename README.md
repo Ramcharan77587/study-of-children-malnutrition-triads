@@ -88,14 +88,14 @@ python scripts/NIErnaya_Phase2_Master_Pipeline.py
 jupyter lab notebooks/
 ```
 
-### 5. Deploy to Vercel (1-Click Static Web Portal & Presentation Suite)
-This repository includes a pre-configured `vercel.json` and root `index.html`:
+### 5. Deploy to Vercel (1-Click WebAssembly Interactive Dashboard)
+This repository includes a pre-configured `vercel.json` and root `index.html` running Streamlit in WebAssembly via Stlite:
 1. Push your changes to GitHub (already synced to `main`).
 2. Go to [vercel.com](https://vercel.com) and log in with GitHub.
 3. Click **Add New...** → **Project**, select `study-of-children-malnutrition-triads`.
 4. Leave all build settings at their defaults (Framework Preset: **Other**; Root Directory: `./`).
 5. Click **Deploy**!
-*Your live Vercel URL will immediately serve the Executive Portal, the 18-slide interactive presentation deck (`/deck`), the 39-page master defense guide (`/guide`), technical report (`/report`), and the WebAssembly dashboard (`/app`).*
+*Your live Vercel URL directly runs the full interactive Child Nutrition Intelligence Dashboard with 706 factual districts loaded in the browser.*
 
 ### 6. Deploy to Streamlit Community Cloud (Native Python Server)
 For full native Python server hosting with live Plotly map rendering:

@@ -2,16 +2,8 @@
   "version": 2,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/deck", "destination": "/03_Final_Report/NIErnaya_Phase2_Presentation_Deck.html" },
-    { "source": "/presentation", "destination": "/03_Final_Report/NIErnaya_Phase2_Presentation_Deck.html" },
-    { "source": "/guide", "destination": "/03_Final_Report/NIErnaya_Phase2_Presentation_Guide_and_Speaker_Notes.html" },
-    { "source": "/notes", "destination": "/03_Final_Report/NIErnaya_Phase2_Presentation_Guide_and_Speaker_Notes.html" },
-    { "source": "/report", "destination": "/03_Final_Report/NIErnaya_Phase2_Final_Technical_Report.pdf" },
-    { "source": "/guide-pdf", "destination": "/03_Final_Report/NIErnaya_Phase2_Presentation_Guide_and_Speaker_Notes.pdf" },
-    { "source": "/deck-pptx", "destination": "/03_Final_Report/NIErnaya_Phase2_Presentation_Deck.pptx" },
-    { "source": "/app", "destination": "/dashboard/index.html" },
-    { "source": "/dashboard", "destination": "/dashboard/index.html" },
-    { "source": "/data-factual", "destination": "/data/processed/nfhs5_india_district_child_malnutrition_factual.csv" }
+    { "source": "/app", "destination": "/index.html" },
+    { "source": "/dashboard", "destination": "/index.html" }
   ],
   "headers": [
     {
@@ -23,9 +15,9 @@
       ]
     },
     {
-      "source": "/(.*)\\.(html|pdf|pptx)",
+      "source": "/(.*)\\.(csv|geojson|json)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
+        { "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }
       ]
     }
   ]
